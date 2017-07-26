@@ -1,0 +1,9 @@
+MX6SABRESD BOARD
+M:	Fabio Estevam <fabio.estevam@nxp.com>
+S:	Maintained
+F:	board/freescale/androiddre/
+F:	include/configs/androiddre.h
+F:	configs/mx6dlsabresd_defconfig
+F:	configs/mx6qsabresd_defconfig
+F:	configs/mx6sabresd_spl_defconfig
+F:	device/nxp/6q/uboot_android_dre_defconfig
