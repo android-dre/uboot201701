@@ -1,0 +1,12 @@
+if TARGET_ANDROIDDRE
+
+config SYS_BOARD
+	default "androiddre"
+
+config SYS_VENDOR
+	default "freescale"
+
+config SYS_CONFIG_NAME
+	default "androiddre"
+
+endif

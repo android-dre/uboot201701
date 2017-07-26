@@ -156,6 +156,12 @@ config TARGET_MX6SABRESD
 	select DM
 	select DM_THERMAL
 
+config TARGET_ANDROIDDRE
+        bool "androiddre"
+        select SUPPORT_SPL
+        select DM
+        select DM_THERMAL
+
 config TARGET_MX6SLEVK
 	bool "mx6slevk"
 	select SUPPORT_SPL
@@ -316,6 +322,7 @@ source "board/engicam/icorem6_rqs/Kconfig"
 source "board/freescale/mx6qarm2/Kconfig"
 source "board/freescale/mx6qsabreauto/Kconfig"
 source "board/freescale/mx6sabresd/Kconfig"
+source "board/freescale/androiddre/Kconfig"
 source "board/freescale/mx6slevk/Kconfig"
 source "board/freescale/mx6sllevk/Kconfig"
 source "board/freescale/mx6sxsabresd/Kconfig"
